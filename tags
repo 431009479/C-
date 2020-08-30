@@ -1,0 +1,384 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	14.class.cpp	/^    A() {$/;"	f	class:A
+A	14.class.cpp	/^    A(const A &a) : A(){$/;"	f	class:A
+A	14.class.cpp	/^class A{$/;"	c	file:
+A	16.class.cpp	/^    A(int x, int y) {cout <<"A constructor" << endl;}  $/;"	f	class:A
+A	16.class.cpp	/^class A{$/;"	c	file:
+A	17.class.cpp	/^    A() {$/;"	f	class:A
+A	17.class.cpp	/^    A(const A &a) {$/;"	f	class:A
+A	17.class.cpp	/^class A {$/;"	c	file:
+A	18.class.cpp	/^struct A{$/;"	s	file:
+A	20.class.cpp	/^    A(const A &a) {$/;"	f	class:A
+A	20.class.cpp	/^    A(string s) {$/;"	f	class:A
+A	20.class.cpp	/^class A{$/;"	c	file:
+A	22.class.cpp	/^class A {$/;"	c	file:
+A	24.constexpr.cpp	/^    constexpr A(int x, int y): x(x), y(y){}$/;"	f	class:A
+A	24.constexpr.cpp	/^class A{$/;"	c	file:
+A	25.final.cpp	/^class A : public map<int, int>{$/;"	c	file:
+A	29.template.cpp	/^    A(int x) :x(x){};$/;"	f	class:A
+A	29.template.cpp	/^class A{$/;"	c	file:
+A	999.cpp	/^    A(int x): x(x){}$/;"	f	class:A
+A	999.cpp	/^class A{$/;"	c	file:
+A	BC++/03_namespace的使用.cpp	/^namespace A{ \/\/此命名空间A会和上面A命名空间合并$/;"	n	file:
+A	BC++/03_namespace的使用.cpp	/^namespace A{$/;"	n	file:
+APHash	Hash.cpp	/^int APHash(const char *str) {$/;"	f
+Alnimal	15.iscceed.cpp	/^    Alnimal(string name, int age) : __name(name), age(age){}$/;"	f	class:Alnimal
+Alnimal	15.iscceed.cpp	/^class Alnimal {$/;"	c	file:
+Animal	17.2.class.cpp	/^    Animal(string name) : __name(name) {$/;"	f	class:Animal
+Animal	17.2.class.cpp	/^class Animal {$/;"	c	file:
+Animal	20.class.cpp	/^class Animal{$/;"	c	file:
+Animal	BC++/03_namespace的使用.cpp	/^    class Animal{};$/;"	c	namespace:A	file:
+B	14.class.cpp	/^    B() : obj(nullptr){$/;"	f	class:B
+B	14.class.cpp	/^    B(A *obj) : B(){$/;"	f	class:B
+B	14.class.cpp	/^class B{$/;"	c	file:
+B	16.class.cpp	/^    B() {cout <<"B constructor" << endl;}$/;"	f	class:B
+B	16.class.cpp	/^class B{$/;"	c	file:
+B	17.class.cpp	/^    B() {$/;"	f	class:B
+B	17.class.cpp	/^    B(const B &b) : A(b) {$/;"	f	class:B
+B	17.class.cpp	/^class B : public A {$/;"	c	file:
+B	18.class.cpp	/^struct B : virtual public A{$/;"	s	file:
+B	22.class.cpp	/^class B : public A{$/;"	c	file:
+B	29.template.cpp	/^    B(int x) :x(x){};$/;"	f	class:B
+B	29.template.cpp	/^class B{$/;"	c	file:
+B	BC++/03_namespace的使用.cpp	/^    namespace B{$/;"	n	namespace:A	file:
+BKDRHash	Hash.cpp	/^class BKDRHash : public HashFunc {$/;"	c	file:
+Base	20.class.cpp	/^    Base(){$/;"	f	class:Base
+Base	20.class.cpp	/^class Base{$/;"	c	file:
+Base_A	20.class.cpp	/^    Base_A(){$/;"	f	class:Base_A
+Base_A	20.class.cpp	/^class Base_A :public Base{$/;"	c	file:
+Bat	15.iscceed.cpp	/^    Bat(string name, int age) : Alnimal(name, age){}$/;"	f	class:Bat
+Bat	15.iscceed.cpp	/^class Bat :protected Alnimal{$/;"	c	file:
+Bat	20.class.cpp	/^class Bat :public Animal{$/;"	c	file:
+BigInt	256.OJ.cpp	/^    BigInt() {}$/;"	f	struct:BigInt
+BigInt	256.OJ.cpp	/^    BigInt(int x) {$/;"	f	struct:BigInt
+BigInt	256.OJ.cpp	/^    BigInt(vector<int> &v) : vector<int>(v) { proccess_digit(); }$/;"	f	struct:BigInt
+BigInt	256.OJ.cpp	/^struct BigInt : vector<int> {$/;"	s	file:
+C	16.class.cpp	/^    C() : a(3, 4) {cout << "C constructor" << endl;}$/;"	f	class:C
+C	16.class.cpp	/^class C : public D{$/;"	c	file:
+C	18.class.cpp	/^struct C: virtual public A{$/;"	s	file:
+C	22.class.cpp	/^class C : public A{$/;"	c	file:
+CMP_FUNC	3.sort.cpp	/^struct CMP_FUNC{$/;"	s	file:
+Cat	15.iscceed.cpp	/^    Cat(string name, int age) : Alnimal(name, age){}$/;"	f	class:Cat
+Cat	15.iscceed.cpp	/^class Cat :public Alnimal{$/;"	c	file:
+Cat	17.2.class.cpp	/^    Cat() : Animal("hello kitty") {$/;"	f	class:Cat
+Cat	17.2.class.cpp	/^class Cat : public Animal {$/;"	c	file:
+Cat	20.class.cpp	/^class Cat :public Animal{$/;"	c	file:
+D	16.class.cpp	/^    D(){ cout << "D constructor" << endl; }$/;"	f	class:D
+D	16.class.cpp	/^class D{$/;"	c	file:
+D	18.class.cpp	/^struct D : public B, public C{};$/;"	s	file:
+D	22.class.cpp	/^class D :public A{$/;"	c	file:
+Dog	20.class.cpp	/^class Dog :public Animal{$/;"	c	file:
+HashFunc	Hash.cpp	/^class HashFunc {$/;"	c	file:
+HashFunc_T	21.hash_table.cpp	/^    typedef int (*HashFunc_T)(int);$/;"	t	class:HashTable	file:
+HashFunc_T	Hash.cpp	/^    typedef function<int(const char *)> HashFunc_T;$/;"	t	class:HashTable	file:
+HashTable	21.hash_table.cpp	/^HashTable::HashTable(HashFunc_T func) $/;"	f	class:HashTable
+HashTable	21.hash_table.cpp	/^HashTable::HashTable(HashFunc_T func1, IHashFunc *func2, int hash_type) $/;"	f	class:HashTable
+HashTable	21.hash_table.cpp	/^HashTable::HashTable(IHashFunc &func) $/;"	f	class:HashTable
+HashTable	21.hash_table.cpp	/^class HashTable {$/;"	c	file:
+HashTable	Hash.cpp	/^HashTable::HashTable(HashFunc_T func) : p_func(func) {$/;"	f	class:HashTable
+HashTable	Hash.cpp	/^class HashTable {$/;"	c	file:
+IHashFunc	21.hash_table.cpp	/^class IHashFunc {$/;"	c	file:
+KingGlory	BC++/04_using.cpp	/^namespace KingGlory{$/;"	n	file:
+LOL	BC++/04_using.cpp	/^namespace LOL{$/;"	n	file:
+M	256.OJ.set.cpp	19;"	d	file:
+MAX_N	256.OJ.cpp	20;"	d	file:
+MyHashFunc	21.hash_table.cpp	/^class MyHashFunc : public IHashFunc {$/;"	c	file:
+Node	Hash.cpp	/^    Node() : flag(false), str(nullptr) {}$/;"	f	class:Node
+Node	Hash.cpp	/^class Node {$/;"	c	file:
+PII	21.hash_table.cpp	/^    typedef pair<int, int> PII;$/;"	t	class:HashTable	file:
+PII	287.OJ.set.cpp	/^typedef pair<int, int> PII;$/;"	t	file:
+PIR	216.OJ.set.cpp	/^typedef pair<string, int> PIR;$/;"	t	file:
+P_ADD	17.2.class.cpp	20;"	d	file:
+People	11.class.cpp	/^    People(const People &a){$/;"	f	class:People
+People	11.class.cpp	/^    People(string name){$/;"	f	class:People
+People	11.class.cpp	/^class People{$/;"	c	file:
+People	8.class.cpp	/^class People{$/;"	c	file:
+People	9.2.class.cpp	/^    People(const People &a){$/;"	f	class:People
+People	9.2.class.cpp	/^    People(int x){$/;"	f	class:People
+People	9.2.class.cpp	/^    People(string name){$/;"	f	class:People
+People	9.2.class.cpp	/^class People{$/;"	c	file:
+People	9.class.cpp	/^    People(){$/;"	f	class:People
+People	9.class.cpp	/^class People{$/;"	c	file:
+People2	8.class.cpp	/^struct People2{$/;"	s	file:
+Person	BC++/03_namespace的使用.cpp	/^    struct Person{$/;"	s	namespace:A	file:
+Point	10.class.cpp	/^    Point() {$/;"	f	class:Point
+Point	10.class.cpp	/^    Point(const Point &a) : Point() {$/;"	f	class:Point
+Point	10.class.cpp	/^    Point(double z) : Point() {$/;"	f	class:Point
+Point	10.class.cpp	/^    Point(int x, int y) : Point() {$/;"	f	class:Point
+Point	10.class.cpp	/^class Point {$/;"	c	file:
+Point	13.class.cpp	/^    Point() :__x(0), __y(0){}$/;"	f	class:Point
+Point	13.class.cpp	/^    Point(int x, int y) :__x(x), __y(y){}$/;"	f	class:Point
+Point	13.class.cpp	/^class Point {$/;"	c	file:
+S	10.class.cpp	/^    int S() const{return get_cnt;}$/;"	f	class:Point
+T	10.class.cpp	/^    static int T() { return Point::total_cnt; }$/;"	f	class:Point
+TEST	27.left_right_value.cpp	11;"	d	file:
+__buff_size	28.move.cpp	/^    int __length, __buff_size;$/;"	m	class:haizei::string	file:
+__buff_size	string.cpp	/^    int __length, __buff_size;$/;"	m	class:haizei::string	file:
+__end	28.move.cpp	/^    char __end;$/;"	m	class:haizei::string	file:
+__end	string.cpp	/^    char __end;$/;"	m	class:haizei::string	file:
+__length	28.move.cpp	/^    int __length, __buff_size;$/;"	m	class:haizei::string	file:
+__length	string.cpp	/^    int __length, __buff_size;$/;"	m	class:haizei::string	file:
+__name	15.iscceed.cpp	/^    string __name;$/;"	m	class:Alnimal	file:
+__name	17.2.class.cpp	/^    string __name;$/;"	m	class:Animal	file:
+__size	21.hash_table.cpp	/^    int __size;$/;"	m	class:HashTable	file:
+__x	13.class.cpp	/^    int __x, __y;$/;"	m	class:Point	file:
+__y	13.class.cpp	/^    int __x, __y;$/;"	m	class:Point	file:
+_size	Hash.cpp	/^    int _size;$/;"	m	class:HashTable	file:
+a	16.class.cpp	/^    A a;$/;"	m	class:C	file:
+a	256.OJ.cpp	/^int a[MAX_N + 5], b[MAX_N + 5], ind[MAX_N + 5];$/;"	v
+a	256.OJ.set.cpp	/^int a[M + 5], b[M + 5]， ind[M + 5];$/;"	v
+age	15.iscceed.cpp	/^    int age;$/;"	m	class:Alnimal	file:
+arr	14.class.cpp	/^    int *arr;$/;"	m	class:A	file:
+arr	14.class.cpp	/^    int *arr;$/;"	m	class:B	file:
+arr	17.2.class.cpp	/^    int *arr;$/;"	m	class:Cat	file:
+arr	9.class.cpp	/^    int *arr;$/;"	m	class:People	file:
+at	28.move.cpp	/^    char &at(int ind) {$/;"	f	class:haizei::string
+at	string.cpp	/^    char &at(int ind) {$/;"	f	class:haizei::string
+atk	BC++/02_双冒号作用域运算符.cpp	/^int atk = 200;$/;"	v
+b	16.class.cpp	/^    B b;$/;"	m	class:C	file:
+b	256.OJ.cpp	/^int a[MAX_N + 5], b[MAX_N + 5], ind[MAX_N + 5];$/;"	v
+buff	28.move.cpp	/^    char *buff;$/;"	m	class:haizei::string	file:
+buff	string.cpp	/^    char *buff;$/;"	m	class:haizei::string	file:
+c_str	28.move.cpp	/^    const char *c_str() const {$/;"	f	class:haizei::string
+c_str	string.cpp	/^    const char *c_str() const {$/;"	f	class:haizei::string
+cin	12.class.cpp	/^    istream cin;$/;"	m	namespace:haizei	file:
+clear	Hash.cpp	/^    void clear() {$/;"	f	class:Node
+cmp	256.OJ.cpp	/^bool cmp(int i, int j) {$/;"	f
+cmp	256.OJ.set.cpp	/^int cmp(int i, int j){$/;"	f
+cout	12.class.cpp	/^    ostream cout;$/;"	m	namespace:haizei	file:
+cout	cout.class.cpp	/^    ostream cout;$/;"	m	namespace:haizei	file:
+data	21.hash_table.cpp	/^    PII **data;$/;"	m	class:HashTable	file:
+data	Hash.cpp	/^    Node *data;$/;"	m	class:HashTable	file:
+decltype	max.cpp	/^    auto Max(T a, U b)->decltype(){$/;"	f	namespace:haizei
+doWork	BC++/11_参数的传递方法.cpp	/^int &doWork(){$/;"	f
+empty	Hash.cpp	/^    bool empty() { return this->flag == false; }$/;"	f	class:Node
+endl	cout.class.cpp	/^    char endl = '\\n';$/;"	m	namespace:haizei	file:
+f	24.constexpr.cpp	/^constexpr int f(int x){$/;"	f
+f	26.nullptr.cpp	/^int f(int *x){$/;"	f
+f	26.nullptr.cpp	/^int f(int x){$/;"	f
+f	27.left_right_value.cpp	/^void f(int &&x){$/;"	f
+f	27.left_right_value.cpp	/^void f(int &x){$/;"	f
+f2	27.left_right_value.cpp	/^void f2(int &&x){$/;"	f
+f2	27.left_right_value.cpp	/^void f2(int &x){$/;"	f
+final	25.final.cpp	/^class B final: public A{ \/\/ final 限制继承B类$/;"	c	file:
+find	Hash.cpp	/^bool HashTable::find(const char *str) {$/;"	f	class:HashTable
+find_position	Hash.cpp	/^Node &HashTable::find_position(const char *str) {$/;"	f	class:HashTable
+flag	Hash.cpp	/^    bool flag;$/;"	m	class:Node	file:
+func	11.class.cpp	/^People func(){$/;"	f
+func	17.class.cpp	/^    void func(){$/;"	f	class:B
+func	20.class.cpp	/^typedef void (*func)(void *, int);$/;"	t	file:
+func1	21.hash_table.cpp	/^    HashFunc_T func1;$/;"	m	class:HashTable	file:
+func2	21.hash_table.cpp	/^    IHashFunc *func2;$/;"	m	class:HashTable	file:
+get	10.class.cpp	/^    void get() const{$/;"	f	class:Point
+get	18.class.cpp	/^    int get() {$/;"	f	struct:C
+get	BC++/05_c++的增强.cpp	/^int get(w, h){$/;"	f
+get_cnt	10.class.cpp	/^    mutable int get_cnt = 0;$/;"	m	class:Point	file:
+haizei	12.class.cpp	/^namespace haizei {$/;"	n	file:
+haizei	28.move.cpp	/^namespace haizei {$/;"	n	file:
+haizei	29.template.cpp	/^namespace haizei{$/;"	n	file:
+haizei	cout.class.cpp	/^namespace haizei {$/;"	n	file:
+haizei	max.cpp	/^namespace haizei{$/;"	n	file:
+haizei	string.cpp	/^namespace haizei {$/;"	n	file:
+hash1	21.hash_table.cpp	/^int hash1(int x) {$/;"	f
+hash_type	21.hash_table.cpp	/^    int hash_type;$/;"	m	class:HashTable	file:
+ind	256.OJ.cpp	/^int a[MAX_N + 5], b[MAX_N + 5], ind[MAX_N + 5];$/;"	v
+ind	256.OJ.set.cpp	/^int a[M + 5], b[M + 5]， ind[M + 5];$/;"	v
+insert	Hash.cpp	/^    void insert(const char *str) {$/;"	f	class:Node
+insert	Hash.cpp	/^bool HashTable::insert(const char *str) {$/;"	f	class:HashTable
+istream	12.class.cpp	/^class istream{$/;"	c	namespace:haizei	file:
+m_a	BC++/03_namespace的使用.cpp	/^        int m_a = 10;$/;"	m	namespace:A::B	file:
+m_a	BC++/03_namespace的使用.cpp	/^    int m_a = 100; $/;"	m	namespace:veryLongName	file:
+m_a	BC++/03_namespace的使用.cpp	/^    int m_a = 20;$/;"	m	namespace:A	file:
+m_b	BC++/03_namespace的使用.cpp	/^    int m_b = 100;$/;"	m	namespace:A	file:
+main	1.cpp	/^int main(){$/;"	f
+main	1.stl.cpp	/^int main() {$/;"	f
+main	10.class.cpp	/^int main() {$/;"	f
+main	11.class.cpp	/^int main(){$/;"	f
+main	12.class.cpp	/^int main(){$/;"	f
+main	13.class.cpp	/^int main(){$/;"	f
+main	14.class.cpp	/^int main(){$/;"	f
+main	15.iscceed.cpp	/^int main(){$/;"	f
+main	16.class.cpp	/^int main(){$/;"	f
+main	17.2.class.cpp	/^int main() {$/;"	f
+main	17.class.cpp	/^int main() {$/;"	f
+main	18.class.cpp	/^int main(){$/;"	f
+main	2.map.cpp	/^int main(){$/;"	f
+main	20.class.cpp	/^int main(){$/;"	f
+main	21.hash_table.cpp	/^int main() {$/;"	f
+main	216.OJ.set.cpp	/^int main(){$/;"	f
+main	22.class.cpp	/^int main(){$/;"	f
+main	23.auto.cpp	/^int main(){$/;"	f
+main	24.constexpr.cpp	/^int main(){$/;"	f
+main	25.final.cpp	/^int main(){$/;"	f
+main	256.OJ.cpp	/^int main() {$/;"	f
+main	256.OJ.set.cpp	/^int main(){$/;"	f
+main	26.nullptr.cpp	/^int main(){$/;"	f
+main	27.left_right_value.cpp	/^int main(){$/;"	f
+main	28.move.cpp	/^int main() {$/;"	f
+main	287.OJ.set.cpp	/^int main(){$/;"	f
+main	29.template.cpp	/^int main(){$/;"	f
+main	3.sort.cpp	/^int main(){$/;"	f
+main	4.set.cpp	/^int main(){$/;"	f
+main	8.class.cpp	/^int main(){$/;"	f
+main	9.2.class.cpp	/^int main(){$/;"	f
+main	9.class.cpp	/^int main(){$/;"	f
+main	999.cpp	/^int main(){$/;"	f
+main	BC++/01_hello.cpp	/^int main(){$/;"	f
+main	BC++/02_双冒号作用域运算符.cpp	/^int main(){$/;"	f
+main	BC++/03_namespace的使用.cpp	/^int main(){$/;"	f
+main	BC++/04_using.cpp	/^int main(){$/;"	f
+main	BC++/05_c++的增强.cpp	/^int main(){$/;"	f
+main	BC++/10_引用的基本.cpp	/^int main(){$/;"	f
+main	BC++/11_参数的传递方法.cpp	/^int main(){$/;"	f
+main	Hash.cpp	/^int main() {$/;"	f
+main	cout.class.cpp	/^int main() {$/;"	f
+main	max.cpp	/^int main(){$/;"	f
+main	string.cpp	/^int main() {$/;"	f
+mySwap01	BC++/11_参数的传递方法.cpp	/^void mySwap01(int a, int b){$/;"	f
+mySwap02	BC++/11_参数的传递方法.cpp	/^void mySwap02(int *a, int *b){$/;"	f
+mySwap03	BC++/11_参数的传递方法.cpp	/^void mySwap03(int &a, int &b){$/;"	f
+my_dynamic_cast	22.class.cpp	/^int my_dynamic_cast(A *ta){$/;"	f
+name	11.class.cpp	/^    string name;$/;"	m	class:People	file:
+name	17.2.class.cpp	/^    string name() { return this->__name; }$/;"	f	class:Animal
+name	9.2.class.cpp	/^    string name;$/;"	m	class:People	file:
+obj	14.class.cpp	/^    A *obj;$/;"	m	class:B	file:
+operator !=	Hash.cpp	/^    bool operator!=(const char *str) {$/;"	f	class:Node
+operator ()	14.class.cpp	/^    int operator()(int a, int b){$/;"	f	class:B
+operator ()	3.sort.cpp	/^    bool operator()(int a, int b){$/;"	f	struct:CMP_FUNC
+operator ()	Hash.cpp	/^    int operator()(const char *str) const {$/;"	f	class:BKDRHash
+operator *	14.class.cpp	/^    A &operator*(){$/;"	f	class:B
+operator *=	256.OJ.cpp	/^    void operator*=(int x) {$/;"	f	struct:BigInt
+operator +	12.class.cpp	/^ostream &operator+(ostream &out, const int &x){$/;"	f
+operator +	13.class.cpp	/^    Point operator+(const Point &a){$/;"	f	class:Point
+operator +	28.move.cpp	/^    string operator+(const string &s) {$/;"	f	class:haizei::string
+operator +	29.template.cpp	/^int operator+(const A &a, const B &b){$/;"	f
+operator +	string.cpp	/^    string operator+(const string &s) {$/;"	f	class:haizei::string
+operator ++	13.class.cpp	/^    Point &operator++(){ $/;"	f	class:Point
+operator ++	13.class.cpp	/^    Point operator++(int){ \/\/区分前++ 和后++（int）$/;"	f	class:Point
+operator +=	13.class.cpp	/^    Point &operator+=(const Point &a){$/;"	f	class:Point
+operator ->	14.class.cpp	/^    A *operator->(){$/;"	f	class:B
+operator /	256.OJ.cpp	/^    BigInt operator\/(int x) {$/;"	f	struct:BigInt
+operator <<	12.class.cpp	/^    ostream &operator<<(const char *mag){$/;"	f	class:haizei::ostream
+operator <<	12.class.cpp	/^    ostream &operator<<(int &n){$/;"	f	class:haizei::ostream
+operator <<	12.class.cpp	/^haizei::ostream &operator<<(haizei::ostream &out, double &z){$/;"	f
+operator <<	13.class.cpp	/^ostream &operator<<(ostream &out, const Point &a){$/;"	f
+operator <<	14.class.cpp	/^ostream &operator <<(ostream &out, const A &a){$/;"	f
+operator <<	17.2.class.cpp	/^ostream &operator<<(ostream &out, const Animal &a) {$/;"	f
+operator <<	17.2.class.cpp	/^ostream &operator<<(ostream &out, const Cat &a) {$/;"	f
+operator <<	256.OJ.cpp	/^ostream &operator<<(ostream &out, const BigInt &v) {$/;"	f
+operator <<	28.move.cpp	/^ostream &operator<<(ostream &out, const haizei::string &s) {$/;"	f
+operator <<	cout.class.cpp	/^        ostream &operator<<(const char &ch) {$/;"	f	class:haizei::ostream
+operator <<	cout.class.cpp	/^        ostream &operator<<(const double &a) {$/;"	f	class:haizei::ostream
+operator <<	cout.class.cpp	/^        ostream &operator<<(const std::string &str) {$/;"	f	class:haizei::ostream
+operator <<	cout.class.cpp	/^        ostream &operator<<(int x) {$/;"	f	class:haizei::ostream
+operator <<	string.cpp	/^ostream &operator<<(ostream &out, const haizei::string &s) {$/;"	f
+operator =	10.class.cpp	/^    void operator=(const Point &a) {$/;"	f	class:Point
+operator =	9.2.class.cpp	/^    void operator=(const People &a){$/;"	f	class:People
+operator ==	Hash.cpp	/^    bool operator==(const char *str) {$/;"	f	class:Node
+operator >	256.OJ.cpp	/^    bool operator>(const BigInt &a) {$/;"	f	struct:BigInt
+operator >	29.template.cpp	/^int operator>(const A &a, const B &b){$/;"	f
+operator >>	12.class.cpp	/^    istream &operator>>(int &n){$/;"	f	class:haizei::istream
+operator >>	28.move.cpp	/^istream &operator>>(istream &in, const haizei::string &s) {$/;"	f	namespace:haizei
+operator >>	string.cpp	/^istream &operator>>(istream &in, const haizei::string &s) {$/;"	f	namespace:haizei
+operator []	14.class.cpp	/^    int &operator[](int ind){$/;"	f	class:B
+operator []	14.class.cpp	/^    void operator[](const char *msg){$/;"	f	class:B
+operator []	21.hash_table.cpp	/^    int &operator[](int x) {$/;"	f	class:HashTable
+operator []	28.move.cpp	/^    char &operator[](int ind) {$/;"	f	class:haizei::string
+operator []	string.cpp	/^    char &operator[](int ind) {$/;"	f	class:haizei::string
+ostream	12.class.cpp	/^class ostream{$/;"	c	namespace:haizei	file:
+ostream	cout.class.cpp	/^    class ostream {$/;"	c	namespace:haizei	file:
+p_func	Hash.cpp	/^    HashFunc_T p_func;$/;"	m	class:HashTable	file:
+proccess_digit	256.OJ.cpp	/^    void proccess_digit() {$/;"	f	struct:BigInt
+retA	20.class.cpp	/^A retA() {$/;"	f
+runI	20.class.cpp	/^    virtual void runI(){$/;"	f	class:Animal
+say	15.iscceed.cpp	/^    void say(){$/;"	f	class:Alnimal
+say	15.iscceed.cpp	/^    void say(){$/;"	f	class:Bat
+say	17.2.class.cpp	/^    void say() {$/;"	f	class:Cat
+say	17.class.cpp	/^    void say(){$/;"	f	class:B
+say	20.class.cpp	/^    virtual void say(int xx){$/;"	f	class:A
+say	25.final.cpp	/^    virtual void say(){$/;"	f	class:A
+say	8.class.cpp	/^void People::say(){$/;"	f	class:People
+say	999.cpp	/^    void say(int x){$/;"	f	class:A
+sayB	22.class.cpp	/^    void sayB(){$/;"	f	class:B
+sayC	22.class.cpp	/^    void sayC(){$/;"	f	class:C
+sayD	22.class.cpp	/^    void sayD(){$/;"	f	class:D
+set	10.class.cpp	/^    void set(int x, int y){$/;"	f	class:Point
+set	18.class.cpp	/^    void set(int x){$/;"	f	struct:B
+set	8.class.cpp	/^void People::set(int x){$/;"	f	class:People
+size	28.move.cpp	/^    int size() {return this->__length;}$/;"	f	class:haizei::string
+size	string.cpp	/^    int size() {return this->__length;}$/;"	f	class:haizei::string
+str	Hash.cpp	/^    char *str;$/;"	m	class:Node	file:
+string	28.move.cpp	/^    string() {$/;"	f	class:haizei::string
+string	28.move.cpp	/^    string(const char *str) {$/;"	f	class:haizei::string
+string	28.move.cpp	/^    string(const string &s){$/;"	f	class:haizei::string
+string	28.move.cpp	/^    string(string &&s){$/;"	f	class:haizei::string
+string	28.move.cpp	/^class string {$/;"	c	namespace:haizei	file:
+string	string.cpp	/^    string() {$/;"	f	class:haizei::string
+string	string.cpp	/^    string(const char *str) {$/;"	f	class:haizei::string
+string	string.cpp	/^class string {$/;"	c	namespace:haizei	file:
+sun	BC++/04_using.cpp	/^    int sun = 30;$/;"	m	namespace:LOL	file:
+sun	BC++/04_using.cpp	/^    int sun =10;$/;"	m	namespace:KingGlory	file:
+test	10.class.cpp	/^void test() {$/;"	f
+test	BC++/11_参数的传递方法.cpp	/^void test(int a, int b){$/;"	f
+test01	BC++/02_双冒号作用域运算符.cpp	/^void test01(){$/;"	f
+test01	BC++/04_using.cpp	/^void test01(){$/;"	f
+test01	BC++/10_引用的基本.cpp	/^void test01(){$/;"	f
+test02	BC++/03_namespace的使用.cpp	/^void test02(){$/;"	f
+test02	BC++/04_using.cpp	/^void test02(){$/;"	f
+test02	BC++/10_引用的基本.cpp	/^void test02(){$/;"	f
+test03	BC++/03_namespace的使用.cpp	/^void test03(){$/;"	f
+test03	BC++/10_引用的基本.cpp	/^void test03(){$/;"	f
+test04	BC++/03_namespace的使用.cpp	/^void test04(){$/;"	f
+test_func	27.left_right_value.cpp	/^int test_func(const int &x){$/;"	f
+total_cnt	10.class.cpp	/^    static int total_cnt;$/;"	m	class:Point	file:
+total_cnt	10.class.cpp	/^int Point::total_cnt = 0;$/;"	m	class:Point	file:
+veryLongName	BC++/03_namespace的使用.cpp	/^namespace veryLongName{$/;"	n	file:
+x	10.class.cpp	/^    int x, y;$/;"	m	class:Point	file:
+x	13.class.cpp	/^    int x() const {return __x;}$/;"	f	class:Point
+x	14.class.cpp	/^    int x, y;$/;"	m	class:A	file:
+x	17.2.class.cpp	/^    int x, y;$/;"	m	class:Animal	file:
+x	17.class.cpp	/^    int x;$/;"	m	class:A	file:
+x	18.class.cpp	/^    int x;$/;"	m	struct:A	file:
+x	20.class.cpp	/^    int *x;$/;"	m	class:Base	file:
+x	20.class.cpp	/^    int x;$/;"	m	class:A	file:
+x	22.class.cpp	/^    double x;$/;"	m	class:C	file:
+x	22.class.cpp	/^    int x;$/;"	m	class:B	file:
+x	22.class.cpp	/^    string x;$/;"	m	class:D	file:
+x	24.constexpr.cpp	/^    int x, y;$/;"	m	class:A	file:
+x	29.template.cpp	/^    int x;$/;"	m	class:A	file:
+x	29.template.cpp	/^    int x;$/;"	m	class:B	file:
+x	8.class.cpp	/^    int x, y;$/;"	m	class:People	file:
+x	8.class.cpp	/^    int x, y;$/;"	m	struct:People2	file:
+x	9.2.class.cpp	/^    int x;$/;"	m	class:People	file:
+x	999.cpp	/^    int x;$/;"	m	class:A	file:
+y	10.class.cpp	/^    int x, y;$/;"	m	class:Point	file:
+y	13.class.cpp	/^    int y() const {return __y;}$/;"	f	class:Point
+y	14.class.cpp	/^    int x, y;$/;"	m	class:A	file:
+y	17.2.class.cpp	/^    int x, y;$/;"	m	class:Animal	file:
+y	17.class.cpp	/^    int y;$/;"	m	class:B	file:
+y	20.class.cpp	/^    int *y;$/;"	m	class:Base_A	file:
+y	24.constexpr.cpp	/^    int x, y;$/;"	m	class:A	file:
+y	8.class.cpp	/^    int x, y;$/;"	m	class:People	file:
+y	8.class.cpp	/^    int x, y;$/;"	m	struct:People2	file:
+z	17.2.class.cpp	/^    int z;$/;"	m	class:Cat	file:
+~A	16.class.cpp	/^    ~A(){$/;"	f	class:A
+~A	22.class.cpp	/^    virtual ~A(){};$/;"	f	class:A
+~Animal	17.2.class.cpp	/^    ~Animal() {$/;"	f	class:Animal
+~B	14.class.cpp	/^    ~B(){$/;"	f	class:B
+~B	16.class.cpp	/^    ~B(){$/;"	f	class:B
+~Base	20.class.cpp	/^    virtual ~Base(){$/;"	f	class:Base
+~Base_A	20.class.cpp	/^    ~Base_A(){$/;"	f	class:Base_A
+~C	16.class.cpp	/^    ~ C(){$/;"	f	class:C
+~Cat	17.2.class.cpp	/^    ~Cat() {$/;"	f	class:Cat
+~D	16.class.cpp	/^    ~D(){$/;"	f	class:D
+~HashTable	Hash.cpp	/^HashTable::~HashTable() {$/;"	f	class:HashTable
+~Node	Hash.cpp	/^    ~Node() {$/;"	f	class:Node
+~People	9.2.class.cpp	/^    ~People(){$/;"	f	class:People
+~People	9.class.cpp	/^    ~People(){$/;"	f	class:People
+~Point	10.class.cpp	/^    ~Point() {$/;"	f	class:Point
+~string	28.move.cpp	/^    ~string(){$/;"	f	class:haizei::string
