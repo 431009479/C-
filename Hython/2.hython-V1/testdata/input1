@@ -1,0 +1,42 @@
+{
+    def a = 100;
+    def b = 123 + a;
+    def c = a * 2 + b;
+    def i1, i2, i3, i4;
+    {
+        def d = a + 12;
+        a = 500;
+        def a = 10000;
+        def e = a + 12;
+        a = 1000;
+        def g = a + 20;
+    }
+    def f = a + 12;
+    print f;
+    if(f < 500) {
+        print 520;
+    } else {
+        print 555;
+    }
+    for(def i = 0;i<10;i = i + 1) {
+        print 6;
+    }
+    while(f < 600) {
+        print f;
+        f = f + 1;
+    }
+    do{
+        f = f + 1;
+        print f;
+    }while(f < 610);
+    print f;
+    print a;
+    def i = 1;
+    for(; i < 5; ){
+
+        print i;
+        i = i + 1;
+    }
+
+}
+

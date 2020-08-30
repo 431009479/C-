@@ -1,0 +1,10 @@
+{
+    def a = 6;
+    do 
+        if (a > 2) {
+            print a;
+            a = a - 2;
+        } 
+    while (a > 3);
+    print a;
+}
